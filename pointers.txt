@@ -31,3 +31,10 @@ how : {'any', 'all'}, default 'any'
 # plt.show()
 
 
+https://htmtopdf.herokuapp.com/ipynbviewer/
+https://scikit-learn.org/stable/user_guide.html
+https://scikit-learn.org/stable/modules/naive_bayes.html
+https://www.analyticsvidhya.com/blog/2022/09/dealing-with-outliers-using-the-iqr-method/
+https://youtu.be/Vc4cXIAa69Y
+https://docs.dataprep.ai/user_guide/eda/introduction.html#userguide-eda
+https://www.analyticsvidhya.com/blog/2021/04/rapid-fire-eda-process-using-python-for-ml-implementation/?
