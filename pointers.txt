@@ -1,0 +1,33 @@
+                            #Null Value Checker
+# df.isnull().sum()     #Gives number of Null values in each column
+# df = df.dropna(axis=0, how='any') 
+# df.shape
+""" 
+    axis : {0 or 'index', 1 or 'columns'}, default 0
+    Determine if rows or columns which contain missing values are removed.
+
+0, or 'index' : Drop rows which contain missing values.
+1, or 'columns' : Drop columns which contain missing value.
+how : {'any', 'all'}, default 'any'
+    Determine if row or column is removed from DataFrame, when we have at least one NA or all NA.
+
+'any' : If any NA values are present, drop that row or column.
+'all' : If all values are NA, drop that row or column.
+
+"""
+                               #PLOTTING
+#Univariate -> tells us how data in each feature is distributed
+#Bivariate -> two variables or features are analyzed together, that how they are related to each other. Generally, we use to perform to find the relationship between the dependent and independent variable
+
+
+
+# sns.histplot(x="tBodyAcc-mean()-X",data=df)
+# sns.boxplot(x="tBodyAcc-mean()-X", y="tBodyAcc-mean()-Y",data=df)
+# sns.scatterplot( x="tBodyAcc-mean()-X", y='tBodyAcc-mean()-Y', data=df,hue='tBodyAcc-mean()-Z', size='tBodyAcc-std()-X')
+
+#Heat Map
+# plt.figure(figsize=(10,6))
+# sns.heatmap(df.corr(), cmap=plt.cm.Reds, annot=True)
+# plt.show()
+
+
